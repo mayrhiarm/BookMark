@@ -1,0 +1,147 @@
+.bgrc {
+  background-color: rgb(83, 83, 182);
+  border-top-right-radius: 500px;
+  border-bottom-right-radius: 500px;
+  margin-right: 10%;
+  padding: 33%;
+  margin-top: 60px;
+}
+
+.jjj {
+  width: 90%;
+  position: absolute;
+  right: 9px;
+  top: 1150px;
+  margin-top: 35px;
+}
+.book {
+  margin: 30px;
+}
+
+.info {
+  /* visibility: hidden; */
+  display: none;
+}
+
+@media (min-width: 425px) {
+  .book {
+    margin-top: 100px;
+  }
+  .org {
+    margin: 10px;
+  }
+  .jjj {
+    width: 90%;
+    position: absolute;
+    right: 9px;
+    top: 1200px;
+    margin-top: 35px;
+  }
+}
+
+@media (min-width: 480px) {
+  .jjj {
+    width: 90%;
+    position: absolute;
+    right: 20px;
+    top: 1200px;
+    margin-top: 35px;
+  }
+  .org {
+    width: 400px;
+    text-align: center;
+    margin: auto;
+  }
+}
+
+@media (min-width: 600px) {
+  .jjj {
+    width: 90%;
+    position: absolute;
+    right: 9px;
+    top: 1350px;
+    margin-top: 35px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* .second {
+    display: grid;
+    grid-template-areas: "right left";
+  } */
+  /* .image {
+    width: 50%;
+    position: relative;
+    right: 350px;
+    top: 1000px;
+  }
+  .bgrc {
+    width: 400px;
+  } */
+  /* .thirddiv {
+    grid-area: right;
+  }
+  .fourthdiv {
+    grid-area: left;
+  } */
+  .org {
+    width: 300px;
+  }
+
+  .book {
+    margin-top: 50px;
+  }
+
+  .second {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+  }
+
+  .bgrc {
+    padding: 150px;
+  }
+  .jjj {
+    position: absolute;
+    /* bottom: 300px; */
+    top: 830px;
+    right: 350px;
+    width: 50%;
+  }
+  .info {
+    /* visibility: visible; */
+    display: block;
+    margin-left: 100px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .jjj {
+    position: absolute;
+    left: 50px;
+    top: 930px;
+  }
+  .bgrc {
+    padding: 180px;
+  }
+}
+@media (min-width: 1366px) {
+  .jjj {
+    position: absolute;
+    left: 80px;
+    top: 1030px;
+  }
+  .bgrc {
+    padding: 250px;
+  }
+}
+@media (min-width: 1440px) {
+  .jjj {
+    position: absolute;
+    left: 80px;
+    top: 1065px;
+  }
+  .bgrc {
+    padding: 250px;
+  }
+}
